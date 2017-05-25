@@ -165,6 +165,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         dbHelper = new DatabaseHelper(this);
         SQLiteDatabase sd = dbHelper.getWritableDatabase();
         sd.close();
+
+//        dbHelper.insert("64","2017-05-20","2017-05-20 22:55:57","2017-05-20 23:05:46");
+//        dbHelper.insert("64","2017-05-21","2017-05-21 03:09:12'","2017-05-21 03:09:12");
+//        dbHelper.insert("64","2017-05-21","2017-05-21 16:58:14","2017-05-21 16:58:14");
+//        dbHelper.insert("64","2017-05-23","2017-05-23 02:03:00","2017-05-23 02:09:00");
+//        dbHelper.insert("64","2017-05-25","2017-05-25 01:22:00","2017-05-25 01:32:00");
         this.getHomeData();
 
     }
