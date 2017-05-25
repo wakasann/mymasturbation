@@ -5,3 +5,4 @@
 目前App的画面是:
 
 
+![App Page Screen Shot](https://raw.githubusercontent.com/wakasann/mymasturbation/master/imagefordoc/screenshot.png)
